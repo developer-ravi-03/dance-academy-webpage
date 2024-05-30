@@ -1,0 +1,5 @@
+first install init
+secont install express
+third install pug 
+fourth install  mongoose
+install body-parser

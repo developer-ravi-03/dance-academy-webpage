@@ -1,0 +1,61 @@
+//- index.pug
+doctype html
+html
+  head
+    title Ravi Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul 
+        div#logo
+          img(src="/static/img/logo1.png")
+          | RDA
+        li  #[a(href="/") Home]
+        li  #[a(href="/") About]
+        li  #[a(href="/") Services]
+        li  #[a(href="/") Class Info]
+        li  #[a(href="/") Contact]
+
+    section#introsection 
+      div Welcome to Ravi's dance academy
+      div.small Eat Sleep Dance Repeat 
+    section#ourmission 
+      h2 Our Mission 
+      div.card
+        h3 Dance perfection 
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/images1.png")
+          div.card-content 
+            p This is the best dance academy of the universe
+      div.card
+        h3 Dance the Way You Like 
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/images2.jpg")
+          div.card-content 
+            p This is the best dance academy of the universe
+      div.card
+        h3 Expert Teaching 
+        div.card-box 
+          div.card-img 
+            img(src="/static/img/images3.jpg")
+          div.card-content 
+            p This is the best dance academy of the universe
+    section#sponsersection 
+      h3 Our Sponsors 
+      div#sponsers 
+        img(src="/static/img/logo.png", alt="sponser image",class="spimage")
+        img(src="/static/img/logo2.png", alt="sponser image",class="spimage")
+        img(src="/static/img/logo3.png", alt="sponser image",class="spimage")
+        img(src="/static/img/logo4.png", alt="sponser image",class="spimage")
+    footer#footer
+      | Copyright © 2023 RaviAcademy.com | All Rights Reserved
+    script
+      include ../static/index.js
+
+
+
+
+
